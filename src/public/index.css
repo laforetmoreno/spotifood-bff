@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: SulSans, Helvetica, sans-serif;
+}
+.link {
+  font-size: 16px;
+  line-height: 1;
+  border-radius: 500px;
+  padding: 19px 56px 21px;
+  color: #fff;
+  background-color: #1db954;
+  text-decoration: none;
+  cursor: pointer;
+}
+.link:active {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.3s;
+}
+
+.link:hover {
+  background-color: #1ed760;
+  transition-duration: 0.3s;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.page {
+  background: linear-gradient(90deg, #2c5e92 0%, #552f6d 80%);
+}
