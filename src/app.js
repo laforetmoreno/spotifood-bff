@@ -18,6 +18,6 @@ app
 
 app.get('/login', login);
 app.get('/callback', callback);
-app.get('/refresh_token', refreshToken);
+app.get('/refresh_token/:refresh_token?', refreshToken);
 
 app.listen(PORT, () => console.log(`Listening on ${PORT}`));

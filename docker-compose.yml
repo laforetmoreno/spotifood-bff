@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  spotifood-bff:
+    build:
+      context: .
+      target: development
+    volumes:
+      - ./src:/spotifood-bff/src/
+    ports:
+      - 8888:8888
+    env_file:
+      - .env

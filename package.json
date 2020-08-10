@@ -1,10 +1,10 @@
 {
   "author": "Moreno Andrade",
-  "name": "bff",
+  "name": "spotifood-bff",
   "description": "BFF to login with spotify ",
   "main": "src/app.js",
   "scripts": {
-    "dev": "nodemon"
+    "start": "nodemon"
   },
   "version": "0.0.2",
   "dependencies": {
