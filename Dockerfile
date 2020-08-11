@@ -13,8 +13,8 @@ EXPOSE 8888
 
 FROM base as development
 
-CMD yarn dev
+CMD yarn start
 
 FROM base as production
 
-CMD npm dev
+CMD npm start

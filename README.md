@@ -1,22 +1,22 @@
 # Spotifood-bff
 
-## Dependências
+## Dependencies
 
 - Node.js 12+
 
-## Desenvolvimento
+## Development
 
-Clonar esse projeto
+Clone this repository
 
 1. `cd spotifood-bff`
-2. `cp .env.sample .env` (E alterar as envs necessárias)
+2. `cp .env.sample .env` (And change the required envs)
 3. `npm install` or `yarn`
 4. `npm start` or `yarn start`
 
-## Rodando projeto no docker
+## Running with Docker
 
 1. `cd spotifood-bff`
-2. `cp .env.sample .env` (E alterar as envs necessárias)
+2. `cp .env.sample .env` (And change the required envs)
 3. `docker-compose uo --build`
 
 ## Scripts
