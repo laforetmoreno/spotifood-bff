@@ -17,4 +17,4 @@ CMD yarn start
 
 FROM base as production
 
-CMD npm start
+CMD yarn start
